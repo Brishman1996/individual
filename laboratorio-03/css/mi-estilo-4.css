@@ -1,0 +1,132 @@
+@charset "UTF-8";
+.contenedor {
+  background-color: blue;
+}
+
+.cabecera {
+  background-color: blueviolet;
+}
+
+.menu {
+  background-color: chartreuse;
+}
+
+.contenido {
+  background-color: chocolate;
+}
+
+.pie {
+  background-color: cornflowerblue;
+}
+
+body {
+  background-color: darkgray;
+}
+
+.parrafo-imagen {
+  background-image: url("../img/Imagen3-245003649.jpg");
+}
+
+.parrafo-transparencia {
+  background-color: black;
+  opacity: 75%;
+  color: white;
+}
+
+.parrafoimagenrepetir {
+  background-image: url("../img/html5ycss3.png");
+}
+
+.parrafoimagennorepetir {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: no-repeat;
+}
+
+.parrafoimagentamaño {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.parrafoimagenrepetir-horizontal {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: repeat-x;
+  background-size: 30px;
+}
+
+.parrafoimagenrepetir-vertical {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: repeat-y;
+  background-size: 30px;
+}
+
+.parrafoimagen-centrar {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+}
+
+.parrafoimagen-izquierda {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 30px;
+}
+
+.parrafoimagen-derecha {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 30px;
+}
+
+.parrafoimagen-superior {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 30px;
+}
+
+.parrafoimagen-inferior {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 30px;
+}
+
+.parrafoimagen-superior-izquierda {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 30px;
+}
+
+.parrafoimagen-superior-derecha {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 30px;
+}
+
+.parrafoimagen-inferior-izquierda {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 30px;
+}
+
+.parrafoimagen-inferior-derecha {
+  background-image: url("../img/html5ycss3.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 30px;
+}
+
+.parrafoimagenes {
+  background-image: url("../img/fotochek-bl.png"), url("../img/html5ycss3.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, left;
+}
+
+/*# sourceMappingURL=mi-estilo-4.css.map */

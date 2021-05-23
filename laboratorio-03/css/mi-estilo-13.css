@@ -1,0 +1,53 @@
+a.vinculo-1:link {
+  color: blueviolet;
+}
+a.vinculo-1:visited {
+  color: orangered;
+}
+a.vinculo-1:hover {
+  color: orchid;
+}
+a.vinculo-1:active {
+  color: blue;
+}
+a.vinculo-2:link {
+  color: blueviolet;
+  text-decoration: none;
+}
+a.vinculo-2:visited {
+  color: orangered;
+  text-decoration: none;
+}
+a.vinculo-2:hover {
+  color: orchid;
+  text-decoration: none;
+}
+a.vinculo-2:active {
+  color: blue;
+  text-decoration: none;
+}
+a.vinculo-3:link, a.vinculo-3:visited {
+  background-color: green;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+a.vinculo-3:hover, a.vinculo-3:active {
+  background-color: royalblue;
+  color: orange;
+}
+a.vinculo-4:link, a.vinculo-4:visited {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+a.vinculo-4:hover, a.vinculo-4:active {
+  background-color: mediumaquamarine;
+  color: orange;
+}
+
+/*# sourceMappingURL=mi-estilo-13.css.map */

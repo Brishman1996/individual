@@ -1,0 +1,99 @@
+body {
+  background-color: #593e3e;
+}
+
+.contenedor {
+  background-color: #bdbdbd;
+}
+
+.parrafo-color {
+  color: red;
+}
+
+.parrafo-derecha {
+  text-align: right;
+}
+
+.parrafo-izquierda {
+  text-align: left;
+}
+
+.parrafo-centro {
+  text-align: center;
+}
+
+.parrafo-justificado {
+  text-align: justify;
+}
+
+.parrafo-subrayado {
+  text-decoration: underline;
+}
+
+.parrafo-sobrelinea {
+  text-decoration: overline;
+}
+
+.parrafo-tachado {
+  text-decoration: line-through;
+}
+
+.parrafo-sinestilo {
+  text-decoration: none;
+}
+
+.parrafo-mayuscula {
+  text-transform: uppercase;
+}
+
+.parrafo-minuscula {
+  text-transform: lowercase;
+}
+
+.parrafo-capital {
+  text-transform: capitalize;
+}
+
+.parrafo-espacionormal {
+  letter-spacing: 5px;
+}
+
+.parrafo-espaciocomprimido {
+  letter-spacing: -5px;
+}
+
+.parrafo-espacioalinea {
+  line-height: 0.9;
+}
+
+.parrafo-espaciolineacomprimido {
+  line-height: -1.9px;
+}
+
+.parrafo-espacioletra {
+  word-spacing: 10px;
+}
+
+.parrafo-espacioletracomprimido {
+  word-spacing: -10px;
+}
+
+.parrafo-espacio {
+  white-space: pre-wrap;
+}
+
+.parrafo-sangria {
+  text-indent: 50px;
+}
+
+.parrafo-sombra {
+  text-shadow: green 1px 2px 3px;
+}
+
+.parrafo-sombragrande {
+  text-transform: uppercase;
+  font-size: 25px;
+  text-shadow: red 1px 2px 20px;
+}
+
+/*# sourceMappingURL=mi-estilo-9.css.map */

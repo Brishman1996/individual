@@ -1,0 +1,71 @@
+.contenedor {
+  background-color: black;
+}
+
+.degradado-1 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to bottom, red, yellow);
+}
+
+.degradado-2 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to left, green, yellow);
+}
+
+.degradado-3 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to right, blue, yellow);
+}
+
+.degradado-4 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to top, red, white);
+}
+
+.degradado-5 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to left, red, white, blue, orange, green, yellow);
+}
+
+.degradado-6 {
+  width: 500px;
+  height: 250px;
+  background: repeating-radial-gradient(red, white, blue, orange, green, yellow);
+}
+
+.degradado-7 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(180deg, red, yellow);
+}
+
+.degradado-8 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(-90deg, green, yellow);
+}
+
+.degradado-9 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(-90deg, blue, yellow);
+}
+
+.degradado-10 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(0deg, red, white);
+}
+
+.degradado-11 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(70deg, red, white);
+}
+
+/*# sourceMappingURL=mi-estilo-12.css.map */

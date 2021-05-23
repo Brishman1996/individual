@@ -1,0 +1,31 @@
+#titulo {
+  color: crimson;
+  font-style: italic;
+}
+
+#barra {
+  background-color: darkblue;
+  height: 15px;
+}
+
+#subtitulos-pares {
+  color: darkgreen;
+  font-weight: bolder;
+}
+
+#parrafos-pares {
+  color: darksalmon;
+  font-style: italic;
+}
+
+#subtitulos-impares {
+  color: darkturquoise;
+  font-weight: bolder;
+}
+
+#parrafos-impares {
+  color: darkviolet;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=identificadores.css.map */

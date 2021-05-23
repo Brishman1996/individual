@@ -1,0 +1,34 @@
+.contenedor {
+  margin: auto;
+  width: 980px;
+  height: 800px;
+  background-color: #707070;
+}
+
+.cabecera {
+  width: 980px;
+  height: 250px;
+  background-color: #c2204c;
+}
+
+.menu {
+  width: 310px;
+  height: 490px;
+  background-color: #262626;
+}
+
+.contenido {
+  width: 670px;
+  height: 490px;
+  background-color: #978e15;
+  margin-left: 310px;
+  margin-top: -490px;
+}
+
+.pie {
+  width: 980px;
+  height: 60px;
+  background-color: #444;
+}
+
+/*# sourceMappingURL=maquetacion-2.css.map */

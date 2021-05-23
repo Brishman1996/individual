@@ -1,0 +1,39 @@
+body {
+  background-color: darkblue;
+}
+
+.contenedor {
+  background-color: whitesmoke;
+}
+.contenedor ul {
+  background-color: cornflowerblue;
+  padding: 15px;
+  list-style: square;
+}
+.contenedor ul li {
+  background-color: crimson;
+  color: white;
+  margin: 3px;
+}
+.contenedor ul li ul {
+  background-color: cyan;
+  padding: 5px;
+  list-style: circle;
+  list-style-position: inside;
+}
+.contenedor ul li ul li {
+  background-color: darkkhaki;
+  margin: 3px;
+  list-style: disc;
+}
+.contenedor ul li ul li ul {
+  background-color: darkmagenta;
+  padding: 5px;
+  list-style-type: none;
+}
+.contenedor ul li ul li ul li {
+  background-color: darkorange;
+  margin: 3px;
+}
+
+/*# sourceMappingURL=mi-estilo-14.css.map */

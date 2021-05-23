@@ -1,0 +1,89 @@
+body {
+  background-color: red;
+}
+
+.contenedor {
+  background-color: white;
+}
+
+.parrafo-1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.parrafo-2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.parrafo-3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafo-4 {
+  font-style: italic;
+}
+
+.parrafo-5 {
+  font-style: oblique;
+}
+
+.parrafo-6 {
+  font-style: normal;
+}
+
+.parrafo-7 {
+  font-weight: bold;
+}
+
+.parrafo-8 {
+  font-style: bolder;
+}
+
+.parrafo-9 {
+  font-variant: small-caps;
+}
+
+.parrafo-10 {
+  font-variant: normal;
+}
+
+.parrafo-11 {
+  font-size: 15px;
+}
+
+.parrafo-12 {
+  font-family: Arial, cursive;
+}
+
+@font-face {
+  font-family: "Codystar-Light";
+  src: url("../fonts/Codystar-Light.ttf");
+}
+@font-face {
+  font-family: "Codystar-Regular";
+  src: url("../fonts/Codystar-Regular.ttf");
+}
+@font-face {
+  font-family: "Itim-Regular";
+  src: url("../fonts/Itim-Regular.ttf");
+}
+@font-face {
+  font-family: "PermanentMarker-Regular";
+  src: url("../fonts/PermanentMarker-Regular.ttf");
+}
+.parrafo-13 {
+  font-family: "Codystar-Light";
+}
+
+.parrafo-14 {
+  font-family: "Codystar-Regular";
+}
+
+.parrafo-15 {
+  font-family: "Itim-Regular";
+}
+
+.parrafo-16 {
+  font-family: "PermanentMarker-Regular";
+}
+
+/*# sourceMappingURL=mi-estilo-10.css.map */
