@@ -1,2 +1,2 @@
 # individual
-labotario-3 / CV / ejemplo-1
+labotarios / CV / ejemplo-1
