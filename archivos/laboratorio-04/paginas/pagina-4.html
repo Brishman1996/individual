@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 1</title>
+
+    <script type="text/javascript">
+
+        var n1;
+        var n2;
+        var n3;
+        var n4;
+        var prom;
+
+        n1 = 0;
+        n2 = 0;
+        n3 = 0;
+        n4 = 0;
+        prom = 0;
+
+        n1 = 18;
+        n2 = 17;
+        n3 = 13;
+        n4 = 15;
+        prom = (n1 + n2 + n3 + n4) / 4;
+
+        alert("La suma es: " + prom);
+        document.write("La suma es: " + prom + "<br>");
+        document.write("<hr>");
+
+        var nom;
+        nom = "";
+        nom = "Mario";
+
+        alert("Hola como estas: " + nom + " espero muy bien");
+        document.write("Hola como estas: " + nom + " espero muy bien");
+        document.write("<hr>");
+
+        //ejemplo 4
+        var sb;
+        var bon;
+        var des;
+        var sf;
+        //inicializando
+        sb=0;
+        bon=0;
+        des=0;
+        sf=0;
+        //asignado valores
+        sb=1000;
+        //realizando operaciones
+        bon=sb*0.07;
+        des=sb*0.04;
+        sf=sb+bon-des;
+        //mostrando resultado
+        alert("El sueldo basico es: "+sb);
+        alert("La bonificación es: "+bon);
+        alert("El descuento es: "+des);
+        alert("El sueldo final es: "+sf);
+        
+        document.write("El sueldo basico es: "+sb+"<br>");
+        document.write("La bonificación es: "+bon+"<br>");
+        document.write("El descuento es: "+des+"<br>");
+        document.write("El sueldo final es: "+sf+"<br>");
+        document.write("<hr>");
+        //Ejemplo 5
+        
+        var cantidad;
+        var precio_producto;
+        var igv;
+        var sub_total;
+        var total;
+
+        cantidad = 0;
+        precio_producto = 0;
+        igv = 0;
+        sub_total=0;
+        total=0;
+
+        cantidad = 10;
+        precio_producto = 125.8;
+        igv = (cantidad*precio_producto)*0.18;
+        sub_total = cantidad*precio_producto;
+        total = sub_total+igv;
+
+        alert("El subtotal es: "+sub_total);
+        document.write("El subtotal es: "+sub_total+"<br>");
+
+        alert("El igv es: "+igv);
+        document.write("El igv es: "+igv+"<br>");
+
+        alert("El total es: "+total);
+        document.write("El total es: "+total+"<br>");
+
+    </script>
+</head>
+
+<body>
+    <hr>
+    <a href="../index.html">Regresar a la pagina principal</a>
+</body>
+
+</html>
