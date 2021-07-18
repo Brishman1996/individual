@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - parte 1</title>
+    <link rel="stylesheet" href="./css/estiloForm.css">
+    <script type="text/javascript">
+    </script>
+</head>
+
+<body>
+    <form action="">
+        <label for="txtNom">Nombres</label><br>
+        <input type="text" name="txtNom" id="txtNom" required="" pattern="[a-zA-Z]" +><br>
+        <label for="">Apellidos</label><br>
+        <input type="text" name="txtApe" id="txtApe"><br>
+        <label for="">Dni</label><br>
+        <input type="text" name="txtDni" id="txtDni" required="" pattern="[0-9]+"><br>
+        <label for="cboCurso">Curso</label><br>
+        <select name="cboCurso" id="cboCurso"><br>
+            <option value="0">Seleccione un curso</option>
+            <option value="1">Diseño web</option>
+            <option value="2">Base de datos</option>
+            <option value="3">Programacion java</option>
+        </select><br>
+        <label for="turnos">Turno</label><br>
+        <input type="radio" name="turno" id="rbM"><label for="rbM">Mañana</label>
+        <input type="radio" name="turno" id="rbT"><label for="rbT">Tarde</label>
+        <input type="radio" name="turno" id="rbN"><label for="rbN">Noche</label>
+        <br>
+        <label for="estado">Estado</label><br>
+        <input type="checkbox" name="chkEst" id="chkEst">
+        <label for="chkEst">Habilitado</label><br>
+        <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar" onclick="ValidarCampos()">
+        <input type="reset" value="Limpiar" id="btnLimpiar" name="btnLimpiar" onclick="Registrar()">
+
+        <!-- Mensaje de Alerta -->
+        <ul class="error" name="error" id="error"></ul>
+
+    </form>
+    <div id="error"></div>
+    <hr>
+    <table id="tbAlumno">
+        <thead>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Dni</th>
+            <th>Curso</th>
+            <th>Turno</th>
+            <th>Estado</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script type="text/javascript" src="./js/validar-pagina-3.js"></script>
+    <script src="./js/alumno.js"></script>
+    <script src="./js/bibliotecaalumno.js"></script>
+</body>
+
+</html>
